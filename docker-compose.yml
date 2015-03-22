@@ -21,4 +21,7 @@ phpnginx:
     - "80:80"
   volumes:
     - ./nginx:/etc/nginx/sites-available
-    - ./src:/var/www
+    - ./:/var/www
+
+gulp:
+  image: dockerfile/nodejs-bower-gulp
