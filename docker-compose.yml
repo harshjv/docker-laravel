@@ -24,4 +24,4 @@ phpnginx:
     - ./:/var/www
 
 gulp:
-  image: harshjv/docker-bower-gulp:1.0
+  image: harshjv/bower-gulp:1.0
